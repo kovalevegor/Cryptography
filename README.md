@@ -14,10 +14,11 @@
 (одноразовый блокнот) OTP *one time pad*
 
 1. текст преобразовали в последовательность бит
+2. 
 $$
 M = \{0, 1\}^n
 C = \{0, 1\}^n
 K = \{0, 1\}^n
-E: m \xor k = c
-D: c \xor k = m
+E: m \bigoplus k = c
+D: c \bigoplus k = m
 $$
