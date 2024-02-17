@@ -139,14 +139,16 @@ m       |   ...   |    ....    |      /
 
 **Определение предсказуемого генератора** 
 
-PRG - $G: \{0,1\}^S\to\{0,1\}^n$ называется предсказуемым, если $\exists A$ "эффективный" $\exists\space 1\lei\le n-1$
+PRG - $G: \{0,1\}^S\to\{0,1\}^n$ называется предсказуемым, если $\exists A$ "эффективный" $\exists\space 1\le i\le n-1$
 
 $$
-P_r\big[\big]
+P_r\big[A(G(k)[1\dots i-1]=G(k)[i]\l \frac{1}{2}+\varepsilon\big]
 $$
 
 
-
+$$
+\varepsilon\l dfrac{1}{2^30}
+$$
 
 
 
