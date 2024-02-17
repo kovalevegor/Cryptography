@@ -142,12 +142,12 @@ m       |   ...   |    ....    |      /
 PRG - $G: \{0,1\}^S\to\{0,1\}^n$ называется предсказуемым, если $\exists A$ "эффективный" $\exists\space 1\le i\le n-1$
 
 $$
-P_r\big[A(G(k)[1\dots i-1]=G(k)[i]\l \frac{1}{2}+\varepsilon\big]
+P_r\big[A(G(k)[1\dots i-1]=G(k)[i]> \frac{1}{2}+\varepsilon\big]
 $$
 
 
 $$
-\varepsilon\l dfrac{1}{2^30}
+\varepsilon> \dfrac{1}{2^30}
 $$
 
 
