@@ -147,7 +147,7 @@ $$
 
 
 $$
-\varepsilon> \dfrac{1}{2^30}
+\varepsilon> \dfrac{1}{2^{30}}
 $$
 
 
