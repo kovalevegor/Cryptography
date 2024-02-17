@@ -82,7 +82,7 @@ $$
 
 PRC генератор псевдо случайных чисел 
 
-$G: \{0,1\}^S\to \{0,1\}^n$ seed $S\gg n$
+$G: \underbrace{\{0,1\}^S}_{Seed}\to \{0,1\}^n$ , seed $S\gg n$
 
 $$
 K=\{0,1\}^S \qquad M = C = \{0,1\}^n
