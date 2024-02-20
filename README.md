@@ -168,7 +168,11 @@ c_1=m_1 \oplus G(k) \quad \oplus \quad c_2=m_2\oplus G(k)
 $$
 
 $$
-C-1\oplus c_2=m_1\oplus m_2
+C_1\oplus c_2=m_1\oplus m_2
+$$
+
+$$
+\underbrace{c_1\oplus c_2}_{\text{Ева знает}}=\underbrace{m_1\oplus m_2}_{\text{не является псевдослучайными данными}}
 $$
 
 
