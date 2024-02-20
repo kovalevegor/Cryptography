@@ -171,12 +171,9 @@ $$
 C_1\oplus c_2=m_1\oplus m_2
 $$
 
-$$
-\underbrace{c_1\oplus c_2}_{\text{Ева знает}}=\underbrace{m_1\oplus m_2}_{\text{не является псевдослучайными данными}}
-$$
+$\underbrace{c_1\oplus c_2}_{\text{Ева знает}}=$ 
 
-
-
+$\underbrace{m_1\oplus m_2}_{\text{не является псевдослучайными данными}}$
 
 
 
