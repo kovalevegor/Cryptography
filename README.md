@@ -16,15 +16,15 @@
 1. текст преобразовали в последовательность бит
 
 $$
-M = \{0, 1\}^n 
+M = \lbrace 0, 1 \rbrace ^n 
 $$
 
 $$
-C = \{0, 1\}^n
+C = \lbrace 0, 1 \rbrace ^n
 $$
 
 $$
-K = \{0, 1\}^n
+K = \lbrace 0, 1 \rbrace ^n
 $$
 
 $$
@@ -83,10 +83,10 @@ $$
 
 PRC генератор псевдо случайных чисел 
 
-$G: \underbrace{\{0,1\}^S}_{Seed}\to \{0,1\}^n$ , seed $S\gg n$
+$G: \underbrace{\lbrace 0,1 \rbrace S}_{Seed}\to \lbrace 0,1 \rbrace ^n$ , seed $S\gg n$
 
 $$
-K=\{0,1\}^S \qquad M = C = \{0,1\}^n
+K=\lbrace 0,1 \rbrace ^S \qquad M = C = \lbrace 0,1 \rbrace ^n
 $$
 
 seed -битовая последовательность длины S
@@ -140,7 +140,7 @@ m       |   ...   |    ....    |      /
 
 **Определение предсказуемого генератора** 
 
-PRG - $G: \{0,1\}^S\to\{0,1\}^n$ называется предсказуемым, если $\exists A$ "эффективный" $\exists\space 1\le i\le n-1$
+PRG - $G: \lbrace 0,1 \rbrace ^S\to\lbrace 0,1 \rbrace ^n$ называется предсказуемым, если $\exists A$ "эффективный" $\exists\space 1\le i\le n-1$
 
 $$
 P_r\big[A(G(k)[1\dots i-1]=G(k)[i]> \frac{1}{2}+\varepsilon\big]
@@ -223,7 +223,7 @@ m = FROM Bob ---------> /F/R/O/M/ /B/o/b/ ---> ШТ
 
 ### Безоопасный генератор псевдослучайных чисел
 
-$G:\underbrace{\{0,1\}^S}_{K}\to\{0,1\}^n$
+$G:\underbrace{\lbrace 0,1 \rbrace ^S}_{K}\to\lbrace 0,1 \rbrace ^n$
 
 $n\gg S$
 
@@ -231,7 +231,7 @@ $n\gg S$
 
 
 $$
-A: \space A(x)^{\{0,1\}^n}=\begin{cases}
+A: \space A(x)^{\lbrace 0,1 \rbrace ^n}=\begin{cases}
    0 &\text{if x - не случ; бесконечно малое G(k)} \\
    1 &\text{if x - случ}
 \end{cases}
@@ -244,13 +244,18 @@ $$
 ### Критерий хорошего статистического теста
 Через вероятность различить полследовательности
 
-Пусть $G:K\to\{0,1\}^n$ и $A$ - статистический тест
+Пусть $G:K\to\lbrace 0,1 \rbrace ^n$ и $A$ - статистический тест
 
 $$
-Adv_{PRG}[A,G]=\vert Pr[A(\underbrace{G(k)}_{k\in K})=1]-Pr[A(\underbrace{r}_r\in\{0,1\}^n)=1]\vert
+Adv_{PRG}[A,G]=\vert Pr[A(\underbrace{G(k)}_{k\in K})=1]-Pr[A(\underbrace{r}_r\in\lbrace 0,1 \rbrace ^n)=1]\vert
 $$
 
-
+```python
+if Adv -> 1:
+  A отмечает G(k) от случайной последовательности
+if Adv -> 0:
+  A не отличает G(k) от случайной последовательности
+```
 
 
 
