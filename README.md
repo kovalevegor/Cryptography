@@ -223,13 +223,16 @@ m = FROM Bob ---------> /F/R/O/M/ /B/o/b/ ---> ШТ
 
 ### Безоопасный генератор псевдослучайных чисел
 
-$G:\enderbrace{\{0,1\}^S}_{K}\to\{0,1\}^n$
+$G:\underbrace{\{0,1\}^S}_{K}\to\{0,1\}^n$
 
 $n\gg S$
 
+Пусть $n\isin K=s^S$
+
+
 $$
 A: \space A(x)^{\{0,1\}^n}=\begin{cases}
-   0 &\text{if x - не случ} \\
+   0 &\text{if x - не случ; бесконечно малое G(k)} \\
    1 &\text{if x - случ}
 \end{cases}
 $$
