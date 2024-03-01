@@ -231,7 +231,7 @@ $n\gg S$
 
 
 $$
-A: \space A(x)^{\lbrace 0,1 \rbrace ^n}=\begin{cases}
+A: \space A(x)^{\lbrace 0,1 \rbrace ^n}=\{cases}
    0 &\text{if x - не случ; бесконечно малое G(k)} \\
    1 &\text{if x - случ}
 \end{cases}
@@ -263,7 +263,7 @@ if Adv -> 0:
 
 2. $G:k\to\lbrace 0,1\rbrace ^n$ $\dfrac{2}{3}$ последовательностей `msb(G(k)) = 1`, `msb` - первый бит
 
-$$ A(x)=\begin{cases}
+$$ A(x)=\{cases}
 0 &\text{иначе} \\ 
 1 &\text{is msb(G(k))=1}
 \end{cases}
@@ -313,3 +313,33 @@ $$
 $Adv_{PRG}[A,G']= \vert Pr[A(r)=1]-Pr[A(G'(K_1,K_2))=1]\vert = \dfrac{1}{4}$
 
 Ответ: генератор не безопасен
+
+Конъюнкция и Дизъюнкция - "плохие" булевые функции для битовых операций
+
+---
+
+**Задача**
+
++ $G:K-> \lbrace 0, 1 \rbrace ^n$ - безопасный генератор
++ $G':K-> \lbrace 0, 1 \rbrace ^{n-2}$ - works like $G'[K)=G(K)[1\dots n-2]$ - безопасен?
+Adv - эффективность
+Доказательство от противного: 
+
+1. Допустим $G'$ -небезопасен, тогда $\forall \space A \space Adv[A,G'}>\varepsilon$
+
+B(X) = \{cases}
+   0 \\
+   1 & if \space A (X_{[1\dots n-1]} = 1
+\end{cases}
+
+2. $Adv_{PRG}[B,G] = Pr[B(r)=1]=\dfrac{1}{2}
+3. Pr(B(G(k))=1]=\varepsilon
+4. $Adv_{PRG}[B,G]=\vert \dfrac{1}{2}-t\vert > \varepsilon
+
+
+
+
+
+
+
+
