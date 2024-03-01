@@ -310,5 +310,6 @@ $$
 + Безопасен ли такой генератор?
 
 
-$Adv_{PRG}[A,G']= \verline Pr[A(r)=1]-Pr[A(G'(K_1,K_2))=1]\verline = \dfrac{1}{4}
+$Adv_{PRG}[A,G']= \vert Pr[A(r)=1]-Pr[A(G'(K_1,K_2))=1]\vert = \dfrac{1}{4}$
 
+Ответ: генератор не безопасен
