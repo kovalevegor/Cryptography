@@ -304,11 +304,11 @@ $$
 
 **Задача**
 
-+ $G:K-> \lbrace 0, 1 \rbace ^n$ - безопасный генератор
-+ $G' K \times K -> \lbrace 0, 1 \rbace ^n$
++ $G:K-> \lbrace 0, 1 \rbrace ^n$ - безопасный генератор
++ $G' K \times K -> \lbrace 0, 1 \rbrace ^n$
 + $G'(K_1, K_2) = G(K_1) \\& G(K_2)$ - увеличения длины ключа.
 + Безопасен ли такой генератор?
 
 
-
+$Adv_{PRG}[A,G']= \verline Pr[A(r)=1]-Pr[A(G'(K_1,K_2))=1]\verline = \dfrac{1}{4}
 
