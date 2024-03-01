@@ -145,6 +145,7 @@ $$
 P_r\big[A(G(k)[1\dots i-1]=G(k)[i]> \frac{1}{2}+\varepsilon\big]
 $$
 
+Если $\frac{1}{2}+\varepsilon\big$ , то $\varepsilon$ начимое 
 
 $$
 \varepsilon> \dfrac{1}{2^{30}}
@@ -290,10 +291,15 @@ $$
 if генератор предсказуем -> он небезопасен
 ```
 
++ r - случайное 
++ Pr[B(r) = 1] = $\dfrac{1}{2}$ 
++ Pr[G(k)] = $\dfrac{1}{2} + \varepsilon$
 
+Доказательство:
 
-
-
+$$
+Adv_{PRG}[B,G]=\vert Pr[B(G(k))=1]-Pr[B(r)=1]\vert
+$$
 
 
 
