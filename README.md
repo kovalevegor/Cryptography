@@ -263,7 +263,7 @@ if Adv -> 0:
 
 2. $G:k\to\lbrace 0,1\rbrace ^n$ $\dfrac{2}{3}$ последовательностей `msb(G(k)) = 1`, `msb` - первый бит
 
-$$ A(x)=\{cases}
+$$ A(x)=\begin{cases}
 0 &\text{иначе} \\ 
 1 &\text{is msb(G(k))=1}
 \end{cases}
@@ -325,17 +325,25 @@ $Adv_{PRG}[A,G']= \vert Pr[A(r)=1]-Pr[A(G'(K_1,K_2))=1]\vert = \dfrac{1}{4}$
 Adv - эффективность
 Доказательство от противного: 
 
-1. Допустим $G'$ -небезопасен, тогда $\forall \space A \space Adv[A,G'}>\varepsilon$
+1. Допустим $G'$ -небезопасен, тогда $\forall \space A \space Adv[A,G']>\varepsilon$
 
-B(X) = \{cases}
-   0 \\
-   1 & if \space A (X_{[1\dots n-1]} = 1
+$$
+B(X) = \begin\{cases}
+   0 & \text{}\\
+   1 & \text{if} \space A (X_{[1\dots n-1]}) = 1
 \end{cases}
+$$
 
-2. $Adv_{PRG}[B,G] = Pr[B(r)=1]=\dfrac{1}{2}
-3. Pr(B(G(k))=1]=\varepsilon
-4. $Adv_{PRG}[B,G]=\vert \dfrac{1}{2}-t\vert > \varepsilon
+2. $Adv_{PRG}[B,G] = Pr[B(r)=1]=\dfrac{1}{2}$
+3. $Pr(B(G(k))=1]=\varepsilon$
+4. $Adv_{PRG}[B,G]=\vert \dfrac{1}{2}-t\vert > \varepsilon$
 
+
+---
+
+<br>
+
+### Безопасность потоковых шифров
 
 
 
