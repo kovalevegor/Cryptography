@@ -145,7 +145,7 @@ $$
 P_r\big[A(G(k)[1\dots i-1]=G(k)[i]> \frac{1}{2}+\varepsilon\big]
 $$
 
-Если $\frac{1}{2}+\varepsilon\big$ , то $\varepsilon$ начимое 
+Если $\frac{1}{2}+\varepsilon$ , то $\varepsilon$ начимое 
 
 $$
 \varepsilon> \dfrac{1}{2^{30}}
