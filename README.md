@@ -301,7 +301,7 @@ $$
 Adv_{PRG}[B,G]=\vert Pr[B(G(k))=1]-Pr[B(r)=1]\vert
 $$
 
-**Задача**
+### Задача
 
 + $G:K	\to \lbrace 0, 1 \rbrace ^n$ - безопасный генератор
 + $G' K \times K 	\to   \lbrace 0, 1 \rbrace ^n$
@@ -317,7 +317,7 @@ $Adv_{PRG}[A,G']= \vert Pr[A(r)=1]-Pr[A(G'(K_1,K_2))=1]\vert = \dfrac{1}{4}$
 
 ---
 
-**Задача**
+### Задача
 
 + $G:K	\to  \lbrace 0, 1 \rbrace ^n$ - безопасный генератор
 + $G':K	\to   \lbrace 0, 1 \rbrace ^{n-2}$ - works like $G'[K)=G(K)[1\dots n-2]$ - безопасен?
