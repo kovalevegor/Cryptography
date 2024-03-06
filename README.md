@@ -304,7 +304,7 @@ $$
 ### Задача
 
 + $G:K	\to \lbrace 0, 1 \rbrace ^n$ - безопасный генератор
-+ $G' K \times K 	\to   \lbrace 0, 1 \rbrace ^n$
++ $G': K \times K 	\to   \lbrace 0, 1 \rbrace ^n$
 + $G'(K_1, K_2) = G(K_1) \\& G(K_2)$ - увеличения длины ключа.
 + Безопасен ли такой генератор?
 
