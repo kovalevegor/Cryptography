@@ -142,7 +142,7 @@ m       |   ...   |    ....    |      /
 PRG - $G: \lbrace 0,1 \rbrace ^S\to\lbrace 0,1 \rbrace ^n$ называется предсказуемым, если $\exists A$ "эффективный" $\exists\space 1\le i\le n-1$
 
 $$
-P_r\big[A(G(k)[1\dots i-1]=G(k)[i]> \frac{1}{2}+\varepsilon\big]
+P_r\big[A(G(k)[1\dots i-1]=G(k)[i]] > \frac{1}{2}+\varepsilon\big
 $$
 
 Если $\frac{1}{2}+\varepsilon$ , то $\varepsilon$ начимое 
