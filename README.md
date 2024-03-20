@@ -20,7 +20,7 @@
 Программный код: 
 
 ```python
-Spyder
+Python Spyder
 
 
 from tqdm import tqdm
