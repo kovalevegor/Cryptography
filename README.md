@@ -106,7 +106,7 @@ $F$ - псевдослучайная функция $F:K\times X\to X$, где $
 $R$ - множество случайных чисел
 
 $$
-E(k,m) = \text{ выбор } r \isin R \to \text{ вычисление } F(k,r) \text{ вычисление } F(k,r) \oplus m \to c
+E(k,m) = \text{ выбор } r \in R \to \text{ вычисление } F(k,r) \text{ вычисление } F(k,r) \oplus m \to c
 $$
 
 
