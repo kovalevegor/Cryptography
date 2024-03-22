@@ -31,7 +31,7 @@ $$
 
 ### Классические примеры
 
-**AES:** *Advanced Encryption Standart* 
+**AES:** *Advanced Encryption Standart* 2002 (Линейно-алгебраический)
 
 + длина блока (n) - 128 bit
 + длина кшлюча (k) - 128, 192, 256 bit
